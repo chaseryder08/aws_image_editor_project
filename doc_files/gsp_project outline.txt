@@ -1,0 +1,48 @@
+< XML - Images changes >
+
+
+internal application - generates files - XML/JSON
+
+> 
+
+04031a
+
+files are saved to storage (s3)
+(API/SDK to send files to storage)*
+need api* - AUTOMATED *
+
+> 
+
+Files saved as XML 
+
+>
+
+Key fault, storing credentials
+
+need creds first before can submit to API
+
+*Gets creds, go to API, with XML Data
+
+> 
+
+Function saves API response to table (very simple table) - she uses simple storage*
+								simple stuff
+
+>
+
+Function moves to archive*
+++
+
+Need to add messages AWS SQS -
+
+===
+
+technology changing constant
+EMPLOYERS WANT OUTCOME, want to save time and money&
+key - they want outcome of project
+what is the impact?
+
+===
+
+
+
