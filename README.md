@@ -7,4 +7,4 @@ This project helps streamline the process of creating and storing new thumbnail 
 
 ## The Infrastructure
 
-To initialize the process, I wrote a python script that uses the 'watchfiles' library to check for changes/uploads to a folder, then uses 'Boto3' to upload the photo to an S3 bucket. Once it is uploaded, an S3 trigger event initializes the lambda function which then uses 'Pillow' to change the image to a thumbnail, and then upload it to a separate bucket specifically for thumbnail images.
+To initialize the process, I wrote a python script that uses the 'watchfiles' library to check for changes/uploads to a folder, then uses 'Boto3' to upload the photo to an S3 bucket (this runs as a background windows process). Once it is uploaded, an S3 trigger event initializes the lambda function which then uses 'Pillow' to change the image to a thumbnail, and then upload it to a separate bucket specifically for thumbnail images.
